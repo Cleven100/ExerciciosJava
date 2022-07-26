@@ -11,11 +11,8 @@ public class App {
          System.out.println(teste.getBonificacao());  */
  
 
-         FuncionarioTeste testeTwo = new FuncionarioTeste();
-          testeTwo.setSalario(3000);
-       
-         System.out.println(testeTwo.getTipo());
-         System.out.println(testeTwo.getBonificacao());
+      
+
 
 
     }
