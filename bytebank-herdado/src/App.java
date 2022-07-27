@@ -1,19 +1,19 @@
 public class App {
     public static void main(String[] args) throws Exception {
        
-      /*    Funcionario teste = new Funcionario();
+     Gerente g1 = new Gerente();
 
-         teste.setNome("Teste");
-         teste.setCpf("000000000");
-         teste.setSalario(2500);
+     g1.setNome("jorge");
+     g1.setCpf("4545454");
+     g1.setSalario(5000.0);
 
-         System.out.println(teste.getNome());
-         System.out.println(teste.getBonificacao());  */
- 
+     System.out.println(g1.getNome());
+     System.out.println(g1.getSalario());
 
-      
-
-
+     g1.setSenha(5454);
+     boolean autenticou = g1.autentica(5454);   
+     
+     System.out.println(autenticou);
 
     }
 }
