@@ -4,7 +4,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         double salary;
 
-         Scanner sc = new Scanner(System.in);       
+        Scanner sc = new Scanner(System.in);       
         System.out.println("Write the salary of employee: ");
         salary = sc.nextDouble();
 
